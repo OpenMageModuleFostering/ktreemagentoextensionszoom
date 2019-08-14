@@ -1,0 +1,16 @@
+{
+    "name": "OpenMageModuleFostering/ktreemagentoextensionszoom",
+    "type": "magento-module",
+    "license": "OSLv3.0",
+    "homepage": "",
+    "description": "Ktree_Zoom",
+    "authors": [
+    {
+        "name": "KTree",
+        "email": "magento@ktree.com"
+    }
+],
+    "suggest": {
+        "magento-hackathon/magento-composer-installer": "*"
+    }
+}

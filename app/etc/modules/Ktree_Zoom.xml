@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<config>
+	<modules>
+		<Ktree_Zoom>
+		    <active>true</active>
+		    <codePool>local</codePool>
+		    <depends>
+			<Mage_Catalog />
+		    </depends>
+		</Ktree_Zoom>
+	</modules>
+</config>

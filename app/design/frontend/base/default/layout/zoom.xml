@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<layout version="0.1.0">
+    <default>
+        <reference name="head">
+            <action method="addItem">
+                <type>skin_css</type>
+                <name>css/ktreezoom/cloud-zoom.css</name>
+            </action>
+            <action method="addItem"><type>skin_js</type><name>js/ktreezoom/jquery-1.8.2.min.js</name></action>
+            <action method="addItem"><type>skin_js</type><name>js/ktreezoom/cloud-zoom.1.0.2.js</name></action>
+        </reference>
+    </default>
+    <catalog_product_view>
+        <reference name="product.info.media">
+           <action method="setTemplate" ifconfig="zoom/general/enabled"><template>zoom/media.phtml</template></action>
+        </reference>
+    </catalog_product_view>
+    
+    <review_product_list>
+        <reference name="product.info.media">
+            <action method="setTemplate" ifconfig="zoom/general/enabled"><template>zoom/media.phtml</template></action>
+        </reference>
+    </review_product_list>
+
+    <oi_ajax_image>
+        <reference name="product.info.media">
+            <action method="setTemplate" ifconfig="zoom/general/enabled"><template>zoom/media.phtml</template></action>
+        </reference>
+    </oi_ajax_image>
+</layout>
+

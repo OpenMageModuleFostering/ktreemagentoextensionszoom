@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<package>
+    <name>ktreemagentoextensionszoom</name>
+    <version>0.1.0</version>
+    <stability>stable</stability>
+    <license uri="http://www.opensource.org/licenses/osl-3.0.php">OSLv3.0</license>
+    <channel>community</channel>
+    <extends/>
+    <summary>Ktree_Zoom</summary>
+    <description>Zoom for product Images in product View page.</description>
+    <notes>Zoom for product Images in product View page.</notes>
+    <authors><author><name>KTree</name><user>KTree</user><email>magento@ktree.com</email></author></authors>
+    <date>2013-12-06</date>
+    <time>05:22:40</time>
+    <contents><target name="magelocal"><dir name="Ktree"><dir name="Zoom"><dir name="Block"><dir name="Product"><dir name="View"><file name="Media.php" hash="c646009dc3308c581c5be2bf02edc69e"/></dir></dir></dir><dir name="Helper"><file name="Data.php" hash="b12c3d56859b0fe44e187edf965859f7"/></dir><dir name="Model"><file name="Magnifierpos.php" hash="bba7656055a0217f46bf658f9f22db63"/></dir><dir name="etc"><file name="config.xml" hash="f2cdecb7a5c77a8e0f8c99e181e3a729"/><file name="system.xml" hash="f04b87ae86e87968c8b3c9ca5a3a4208"/></dir></dir></dir></target><target name="mageetc"><dir name="modules"><file name="Ktree_Zoom.xml" hash="bae0fe85f5f97d5e18944fcbc8d359e8"/></dir></target><target name="mageskin"><dir name="frontend"><dir name="base"><dir name="default"><dir name="css"><dir name="ktreezoom"><file name="cloud-zoom.css" hash="4c9131135899c68eb000d5eab0f4a750"/></dir></dir><dir name="js"><dir name="ktreezoom"><file name="cloud-zoom.1.0.2.js" hash="93b0f6754afe27f8e94feaf999fe8247"/><file name="jquery-1.8.2.min.js" hash="51a274fff4f950f39519419ff0b8786b"/></dir></dir></dir></dir></dir></target><target name="magedesign"><dir name="frontend"><dir name="base"><dir name="default"><dir name="template"><dir name="zoom"><file name="media.phtml" hash="94c23d5d750a4974880cc3f7600980b4"/></dir></dir><dir name="layout"><file name="zoom.xml" hash="eb35e08c7daf699f460fd204c90883e1"/></dir></dir></dir></dir></target></contents>
+    <compatible/>
+    <dependencies><required><php><min>5.0.0</min><max>6.0.0</max></php></required></dependencies>
+</package>
